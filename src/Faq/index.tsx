@@ -3,13 +3,13 @@ import Questions from "./Questions";
 
 const Faq = () => {
     return (
-        <section id="faqs" className="p-20">
+        <section id="faqs" className="sm:p-20">
             <div id="faqs" className="min-h-screen mx-auto hero ">
                 <div className="flex-col hero-content lg:flex-row-reverse">
                     <div data-aos="fade-left">
                         <img src="/images/faqs.png" />
                     </div>
-                    <div className="w-4/12">
+                    <div className="sm:w-4/12">
                         <h2 className="text-3xl font-bold text-error">FAQ</h2>
                         <h4 className="py-6 text-4xl font-semibold leading-normal text-slate-900/70">
                             Questions and Answers on professional traffic
@@ -18,7 +18,7 @@ const Faq = () => {
                     </div>
                 </div>
             </div>
-            <div className="container px-20 mx-auto">
+            <div className="mx-auto sm:container sm:px-20">
                 <Questions />
             </div>
         </section>

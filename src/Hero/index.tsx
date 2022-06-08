@@ -7,9 +7,9 @@ const Hero = () => {
         <section
             id="hero"
             data-aos="fade-down"
-            className="relative min-h-[120vh] hero justify-start bg-[url('/images/hero.svg')]"
+            className="relative min-h-[120vh] hero justify-start bg-[url('/images/hero.svg')] p-4"
         >
-            <div className="w-5/12 text-base-100">
+            <div className="sm:w-5/12 text-base-100">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl">
                     Your Awesome Traffic permit consultant
                 </h1>

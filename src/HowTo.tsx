@@ -7,7 +7,7 @@ const HowTo = () => {
                 <div data-aos="fade-right">
                     <img src="/images/howto.svg" />
                 </div>
-                <div className="w-4/12">
+                <div className="sm:w-4/12">
                     <h2 className="text-3xl font-bold uppercase text-error">
                         How To Apply!
                     </h2>
