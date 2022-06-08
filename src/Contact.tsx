@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <section
             id="contactus"
-            className="sm:relative mt-40 sm:w-11/12 min-h-[30rem] rounded-tr-[10rem] hero bg-slate-900"
+            className="sm:relative mt-40 sm:w-11/12 min-h-[30rem] rounded-tr-[10rem] hero bg-slate-900 p-2 sm:p-0"
         >
             <div className="w-full">
                 <div>
@@ -21,7 +21,7 @@ const Contact = () => {
                     </p>
                 </div>
                 <div className="my-4 sm:absolute -top-20 right-40 sm:my-0">
-                    <div className="p-10 shadow-xl max-h-max card w-96 bg-base-100">
+                    <div className="p-10 shadow-xl max-h-max card sm:w-96 bg-base-100">
                         <div className="form-control">
                             <label htmlFor="name">Email</label>
                             <input
@@ -51,14 +51,14 @@ const Contact = () => {
                     </div>
                 </div>
                 {/* nav */}
-                <div className="flex justify-between w-full sm:mx-auto sm:container sm:px-40 sm:mt-72 bg-slate-900 sm:bg-transparent">
+                <div className="flex-col justify-between sm:flex-col sm:mx-auto sm:container sm:px-40 sm:mt-72">
                     <a
                         href="#hero"
                         className="text-xl font-black uppercase btn btn-ghost text-base-100"
                     >
                         Trafico.
                     </a>
-                    <ul className="gap-12 p-0 font-bold uppercase menu menu-horizontal text-base-100">
+                    <ul className="gap-2 p-0 font-bold uppercase sm:gap-12 menu menu-horizontal text-base-100">
                         <li>
                             <a href="#about">About</a>
                         </li>
