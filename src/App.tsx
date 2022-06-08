@@ -1,4 +1,5 @@
 import { useState } from "react";
+import About from "./About";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import Truck from "./Navbar/Truck";
@@ -11,6 +12,7 @@ function App() {
             <Navbar />
             <Hero />
             <Truck />
+            <About />
         </>
     );
 }
