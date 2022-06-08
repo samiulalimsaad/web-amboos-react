@@ -1,6 +1,7 @@
 import { useState } from "react";
 import About from "./About";
 import Hero from "./Hero";
+import HowTo from "./HowTo";
 import Navbar from "./Navbar";
 import Truck from "./Navbar/Truck";
 
@@ -13,6 +14,7 @@ function App() {
             <Hero />
             <Truck />
             <About />
+            <HowTo />
         </>
     );
 }
