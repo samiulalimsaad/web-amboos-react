@@ -3,7 +3,8 @@ import React from "react";
 
 const Hero = () => {
     return (
-        <div
+        <section
+            id="hero"
             data-aos="fade-down"
             className="min-h-[120vh] hero justify-start bg-[url('/images/hero.svg')]"
         >
@@ -18,7 +19,7 @@ const Hero = () => {
                     </span>
                 </button>
             </div>
-        </div>
+        </section>
     );
 };
 
