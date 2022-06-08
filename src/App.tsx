@@ -1,5 +1,6 @@
 import { useState } from "react";
 import About from "./About";
+import Contact from "./Contact";
 import Footer from "./Footer";
 import Hero from "./Hero";
 import HowTo from "./HowTo";
@@ -16,6 +17,7 @@ function App() {
             <Truck />
             <About />
             <HowTo />
+            <Contact />
             <Footer />
         </>
     );

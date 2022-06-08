@@ -3,7 +3,7 @@ import NavItems from "./NavItems";
 
 const Navbar = () => {
     return (
-        <header className="fixed top-0 py-8 navbar bg-red-900/20">
+        <header className="fixed top-0 z-50 py-8 navbar bg-red-900/20">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
