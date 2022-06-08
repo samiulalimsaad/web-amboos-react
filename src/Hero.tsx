@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <div
             data-aos="fade-down"
-            className="min-h-[120vh] hero justify-start bg-[url('images/hero.svg')]"
+            className="min-h-[120vh] hero justify-start bg-[url('/images/hero.svg')]"
         >
             <div className="w-5/12 text-base-100">
                 <h1 className="text-6xl">
